@@ -124,7 +124,7 @@ h1 {
   position: absolute;
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   display: inline-block;
   height: 4px;
   width: 100%;
@@ -192,12 +192,7 @@ h1 {
   padding-bottom: 200px;
   /* outline: 2px solid violet; */
   margin-bottom: 94px;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
-    url(../images/hero/bg.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero/bg.jpg);
   max-width: 1600px;
   height: 600px;
   background-repeat: no-repeat;
@@ -279,7 +274,7 @@ h1 {
 
 .about-us-item::before {
   display: block;
-  content: "";
+  content: '';
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -290,19 +285,19 @@ h1 {
 }
 
 .about-us-item.icon-details::before {
-  background-image: url("../images/about-us/antenna.svg");
+  background-image: url('../images/about-us/antenna.svg');
 }
 
 .about-us-item.icon-punctuality::before {
-  background-image: url("../images/about-us/clock.svg");
+  background-image: url('../images/about-us/clock.svg');
 }
 
 .about-us-item.icon-planning::before {
-  background-image: url("../images/about-us/diagram.svg");
+  background-image: url('../images/about-us/diagram.svg');
 }
 
 .about-us-item.icon-up-to-date::before {
-  background-image: url("../images/about-us/astronaut.svg");
+  background-image: url('../images/about-us/astronaut.svg');
 }
 
 .about-us .description {
@@ -365,8 +360,7 @@ h1 {
   margin-right: 30px;
 }
 .team-member {
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
@@ -600,7 +594,7 @@ footer {
   align-items: center;
 }
 .subscribe.button::after {
-  content: "";
+  content: '';
   display: inline-block;
   margin-left: 10px;
   width: 24px;
@@ -630,8 +624,7 @@ footer {
   padding-top: 6px;
   padding-bottom: 6px;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -640,8 +633,7 @@ footer {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   background: var(--accent-color);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .project-name {
@@ -692,10 +684,7 @@ footer {
   left: 0;
   transform: translatey(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-image: linear-gradient(
-    rgba(33, 150, 243, 0.9),
-    rgba(33, 150, 243, 0.9)
-  );
+  background-image: linear-gradient(rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
   padding-top: 63px;
   padding-bottom: 63px;
 }
@@ -740,8 +729,7 @@ footer {
 }
 
 .projects.list .description:hover {
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    0px 1px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .projects.list .description:not(:nth-child(3n)) {
@@ -911,8 +899,7 @@ footer {
   top: 50%;
   left: 42px;
   transform: translateY(-50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    folor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), folor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-label {
